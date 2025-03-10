@@ -10,13 +10,13 @@ jump-app-micros:
     namespace: istio-system
     mtls: true
   cicd:
-    namespace: user01-jump-app-cicd
+    namespace: user06-jump-app-cicd
   knative:
     enabled: false
 
 # Global variables
 global:
-  appsDomain: apps.cluster-4kh56.dynamic.redhatworkshops.io
+  appsDomain: apps.cluster-gwtg8.dynamic.redhatworkshops.io
   apps:
     front-javascript:
       imagetag: develop
